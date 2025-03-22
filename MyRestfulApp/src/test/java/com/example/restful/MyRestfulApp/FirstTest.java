@@ -69,7 +69,6 @@ public class FirstTest {
 		 
 		 JsonPath path = new JsonPath(response4);
 		 String addedId = path.getString("id");
-//		 String addedId = "ff808181932badb60195bb04b5ae192e";
 		 
 		 //4.1 Read after post method
 		 String response41 = given().log().all()
